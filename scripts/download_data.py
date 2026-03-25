@@ -51,8 +51,8 @@ def main():
     print("Download completed!")
 
     print("Unzipping files...")
-    unzip_file(os.path.join(settings.DATA_DIR, settings.META_FILE))
-    unzip_file(os.path.join(settings.DATA_DIR, settings.REVIEW_FILE))
+    unzip_file(os.path.join(settings.DATA_DIR, settings.META_URL.split("/")[-1]))
+    unzip_file(os.path.join(settings.DATA_DIR, settings.REVIEW_URL.split("/")[-1]))
     print("Unzip completed!")
 
 if __name__ == "__main__":

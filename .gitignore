@@ -10,7 +10,7 @@ venv/
 .env
 
 # Data (ML project)
-data/
+/data/
 *.csv
 *.parquet
 

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+.env
+
+# Data (ML project)
+data/
+*.csv
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
